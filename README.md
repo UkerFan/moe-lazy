@@ -3,8 +3,8 @@ Vue-Lazyload
 
 ## Declaraction
 
-Fork from [https://github.com/hilongjw/vue-lazyload](https://github.com/hilongjw/vue-lazyload)
-see demo: [http://hilongjw.github.io/vue-lazyload/](http://hilongjw.github.io/vue-lazyload/)
+- Fork from [https://github.com/hilongjw/vue-lazyload](https://github.com/hilongjw/vue-lazyload)
+- see demo: [http://hilongjw.github.io/vue-lazyload/](http://hilongjw.github.io/vue-lazyload/)
 
 ## Some Changes (bugfix)
 
