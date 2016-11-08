@@ -1,8 +1,8 @@
 {
-  "name": "vue-lazyload",
-  "version": "0.8.3",
+  "name": "moe-lazy",
+  "version": "0.0.1",
   "description": "Vue module for lazy-loading images in your vue.js applications.",
-  "main": "vue-lazyload.js",
+  "main": "moe-lazy.js",
   "scripts": {
     "start": "node build"
   },
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/UkerFan/vue-lazyload.git"
+    "url": "https://github.com/UkerFan/moe-lazy.git"
   },
   "keywords": [
     "vue-lazyload",
