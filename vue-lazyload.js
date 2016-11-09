@@ -65,12 +65,10 @@ export default (Vue, Options = {}) => {
 
   const checkCanShow = (listener) => {
     if (imageCache.indexOf(listener.src) > -1) {
-      console.log('read cache');
-      console.log('read cache');
       return setElRender(listener.el, listener.src, 'loaded');
     }
     let rect = listener.el.getBoundingClientRect();
-    if ((rect.top < window.innerHeight * Init.preLoad && rect.bottom > 0) && (rect.left < window.innerWidth * Init.preLoad / Init.zoom && rect.right > 0)) {
+    if ((rect.top < window.innerHeight * Init.preLoad / Init.zoom && rect.bottom > 0) && (rect.left < window.innerWidth * Init.preLoad / Init.zoom && rect.right > 0)) {
       render(listener);
     }
   };
